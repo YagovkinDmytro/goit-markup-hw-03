@@ -4,31 +4,29 @@
   --main-color: #434455;
   --main-bg-cl: #fff;
   --main-cl-link: #2e2f42;
+  box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* Base styles */
 body {
   font-family: var(--main-font);
   color: var(--main-color);
   background-color: var(--main-bg-cl);
 }
-.link {
-  text-decoration: none;
-  list-style: none;
-}
-.list {
-  list-style: none;
-  text-decoration: none;
-}
+
 h1,
 h2,
 h3 {
   color: var(--navyblue, #2e2f42);
+  margin: 0;
 }
-button {
-  font-family: inherit;
-  color: currentColor;
-  cursor: pointer;
-}
+
 .text {
   color: var(--main-color);
   font-size: 16px;
@@ -36,7 +34,30 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
 }
+
+/* reset styles */
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: currentColor;
+}
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Top Line */
 /* LOGO */
 .logo-link {
@@ -47,7 +68,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-part {
+.logo-part-header {
   color: var(--navyblue, #2e2f42);
 }
 .logo-part-footer {
@@ -151,6 +172,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+/* Portfolio page */
 /* Portfolio section */
 .portfolio-title {
   font-size: 20px;
@@ -188,4 +210,13 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* Main page */
+.container {
+  max-width: 1440px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
