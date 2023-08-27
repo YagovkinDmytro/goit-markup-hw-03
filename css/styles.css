@@ -239,7 +239,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-/* Hero section */
+/* Top section */
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
@@ -275,9 +275,8 @@ img {
   align-items: center;
   gap: 40px;
 }
-.hero-section {
-  margin-left: auto;
-  margin-right: auto;
+/* Hero section */
+.hero {
   padding: 188px 0;
 }
 .hero-text {
