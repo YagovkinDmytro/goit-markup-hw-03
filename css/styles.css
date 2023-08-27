@@ -379,4 +379,8 @@ img {
 .section-card {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
+}
+.section-card-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
