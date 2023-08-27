@@ -239,6 +239,7 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* Hero section */
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
 }
@@ -248,6 +249,7 @@ img {
 }
 .header-nav {
   display: flex;
+  align-items: center;
   margin-right: auto;
 }
 .logo-header {
@@ -259,36 +261,42 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+.info-page {
+  display: block;
   padding: 24px 0;
 }
 .info-contact {
   display: flex;
+  align-items: center;
 }
 .info-contact-list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-
 .hero-section {
   margin-left: auto;
   margin-right: auto;
+  padding: 188px 0;
 }
-
 .hero-text {
-  padding-top: 188px;
+  max-width: 496px;
   padding-bottom: 48px;
+  margin: auto;
 }
 .hero-button {
-  display: inline-flex;
-  margin-left: 480px;
-  margin-bottom: 188px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin: auto;
   padding: 16px 32px;
+  border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* Section 1 structure */
-.benefits-container {
+.benefits {
   padding-top: 120px;
   padding-bottom: 120px;
 }
