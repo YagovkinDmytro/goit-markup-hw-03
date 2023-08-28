@@ -312,12 +312,15 @@ img {
   margin-bottom: 8px;
 }
 /* Section 2 structure */
+
+.product {
+  padding-bottom: 120px;
+}
 .product-title {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .product-list {
   display: flex;
-  padding-bottom: 120px;
   gap: 24px;
 }
 .product-item {
@@ -355,18 +358,21 @@ img {
   padding-bottom: 32px;
 }
 /* Footer structure */
+.footer {
+  padding: 100px 0;
+}
 .footer-container {
   display: flex;
-  padding-top: 100px;
-  padding-bottom: 100px;
   flex-direction: column;
 }
 .logo-footer {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 16px;
   width: 115px;
 }
 .text-footer {
-  width: 264px;
-  padding-top: 16px;
+  max-width: 264px;
 }
 /* Prtfolio button section  */
 .section-button {
