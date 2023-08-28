@@ -366,8 +366,7 @@ img {
   flex-direction: column;
 }
 .logo-footer {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   margin-bottom: 16px;
   width: 115px;
 }
