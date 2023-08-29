@@ -283,8 +283,7 @@ img {
 }
 .hero-text {
   max-width: 496px;
-  padding-bottom: 48px;
-  margin: auto;
+  margin: 0 auto 48px;
 }
 .hero-button {
   display: block;
@@ -343,9 +342,6 @@ img {
   gap: 24px;
 }
 .team-list-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   width: 264px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
